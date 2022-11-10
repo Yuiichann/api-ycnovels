@@ -5,7 +5,7 @@
   "main": "src/server.ts",
   "scripts": {
     "start": "node build/server.js",
-    "build": "tsc"
+    "build": "tsc --outDir build"
   },
   "keywords": [
     "api",
