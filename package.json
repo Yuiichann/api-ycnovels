@@ -4,9 +4,8 @@
   "description": "Restful API YC-NOVELS",
   "main": "src/server.ts",
   "scripts": {
-    "start": "node build/server.ts",
-    "build": "rm -rf build/ && tsc",
-    "dev": "nodemon src/server.ts"
+    "start": "node build/server.js",
+    "build": "tsc"
   },
   "keywords": [
     "api",
